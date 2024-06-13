@@ -86,4 +86,8 @@ export class Operation {
   incognitoWindow() {
     chrome.runtime.sendMessage({action: 'incognitoWindow'}).then();
   }
+
+  closeIncognitoWindows() {
+    chrome.runtime.sendMessage({action: 'closeIncognitoWindows'}).then();
+  }
 }

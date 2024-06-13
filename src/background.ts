@@ -61,6 +61,16 @@ const actions = {
     chrome.windows.create({
       incognito: true,
     });
+  },
+  closeIncognitoWindows: () => {
+    chrome.windows.getAll({ populate: true }, (windows) => {
+      console.log(windows)
+      windows.forEach((window) => {
+        if (window.incognito) {
+          chrome.windows.remove(window.id);
+        }
+      });
+    });
   }
 }
 

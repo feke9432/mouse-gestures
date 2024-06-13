@@ -29,7 +29,7 @@ export const DefaultConfig: Config = {
     DownRight: Operations.CloseCurrentTab,
     LeftRight: Operations.CloseOtherTabs,
     LeftUp: Operations.IncognitoWindow,
-    LeftDown: Operations.Invalid,
+    LeftDown: Operations.CloseIncognitoWindows,
     RightLeft: Operations.ReopenLastClosedTab,
     RightUp: Operations.OpenNewTab,
     RightDown: Operations.Refresh,

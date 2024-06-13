@@ -65,6 +65,9 @@
   "incognitoWindow": {
     "message": "打开一个无痕窗口"
   },
+  "closeIncognitoWindows": {
+    "message": "关闭所有无痕窗口"
+  },
   "changesHaveBeenImplemented": {
     "message": "修改已生效"
   },

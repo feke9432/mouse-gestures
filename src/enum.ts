@@ -40,4 +40,5 @@ export enum Operations {
   Fullscreen = "fullscreen",
   MinimizeWindow = "minimizeWindow",
   IncognitoWindow = "incognitoWindow",
+  CloseIncognitoWindows = "closeIncognitoWindows",
 }

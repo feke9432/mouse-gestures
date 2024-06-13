@@ -65,6 +65,9 @@
   "incognitoWindow": {
     "message": "create incognito Window"
   },
+  "closeIncognitoWindows": {
+    "message": "close all incognito Windows"
+  },
   "changesHaveBeenImplemented": {
     "message": "Changes have been implemented"
   },

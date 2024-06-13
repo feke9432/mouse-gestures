@@ -34,8 +34,10 @@
     ],
     "permissions": [
       "tabs",
-      "sessions"
+      "sessions",
+      "windows"
     ],
-    "default_locale": "en"
+    "default_locale": "en",
+    "incognito": "spanning"
   }
 }
