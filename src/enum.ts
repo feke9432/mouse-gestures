@@ -30,6 +30,8 @@ export enum Operations {
   Refresh = "refresh",
   ReloadAllTabs = "reloadAllTabs",
   OpenNewTab = "openNewTab",
+  OpenNewWindow = "openNewWindow",
+  OpenIncognitoWindow = "openIncognitoWindow",
   CloseCurrentTab = "closeCurrentTab",
   CloseOtherTabs = "closeOtherTabs",
   CloseAllTabs = "closeAllTabs",
